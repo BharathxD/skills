@@ -10,12 +10,20 @@ A collection of custom skills for [Claude Code](https://claude.ai/claude-code).
 
 ## Installation
 
+Install all skills:
+
 ```bash
-claude install-skill github:BharathxD/skills/<skill-name>
+npx skills add BharathxD/skills
 ```
 
-For example:
+Install a specific skill:
 
 ```bash
-claude install-skill github:BharathxD/skills/rocky-speak
+npx skills add BharathxD/skills -s rocky-speak
+```
+
+You can also list available skills before installing:
+
+```bash
+npx skills add BharathxD/skills -l
 ```
